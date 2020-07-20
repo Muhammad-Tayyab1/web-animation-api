@@ -1,0 +1,14 @@
+.bg{
+    height: 140px;
+  width: 500%;
+  background: url('../Images/road-clipart-horizontal-road-clipart-1-612.jpg');
+  display: block;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  background-repeat: repeat-x;
+ animation: moveItem 12s normal forwards infinite;
+}
+@keyframes moveItem{
+    100%{transform: translate(-2950px)};
+}
